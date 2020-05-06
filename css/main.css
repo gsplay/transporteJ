@@ -298,6 +298,78 @@ div.tabla-precio ul li img {
 }
  
 /** fin servicios **/
+
+/** Contacto **/
+.parallax {
+  display: inline-block;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.parallax::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .4);
+}
+/** Newsletter **/
+@media only screen and (min-width: 768px) {
+  div.newsletter {
+    height: 40vh;
+  }
+}
+div.newsletter {
+  position: relative;
+  padding-top: 5vh;
+  height: 30vh;
+  background-image: url(../img/ruta.webp);
+}
+div.newsletter .contenido {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+div.newsletter .contenido p {
+  font-size: 1.2p;
+  text-transform: lowercase;
+}
+div.newsletter .contenido h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-family: 'PT Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.button {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #fc7e2f;
+  padding: 10px 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #fc7e2f;
+  font-size: 1em;
+  margin-top: 20px;
+  display: inline-block;
+  transition: all .3s ease-in-out;
+}
+.button:hover {
+  background-color: #fc7e2f;
+}
+.button.transparente {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.button.transparente:hover{
+  border: 2px solid #fc7e2f;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
