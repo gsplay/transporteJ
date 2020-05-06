@@ -265,6 +265,12 @@ div.whatsapp .contenido p {
     float: left;
     width: 33.3%;
   }
+  div.tabla-precio {
+    padding: 0 20px ;
+  }
+  div.tabla-precio ul li {
+    font-size: 1.3em;
+  }
 }
 .lista-precios {
   padding-left: 0px;
@@ -274,12 +280,12 @@ ul.lista-precios {
 }
 div.tabla-precio {
   background-color: #ffffff; 
-  padding: 0 20px;
+  padding: 0;
   text-align: left;
 }
 div.tabla-precio ul li {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-bottom: 20px;
   text-transform: uppercase;
   color: #404040;
