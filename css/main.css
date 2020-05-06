@@ -116,10 +116,18 @@ textarea {
     line-height: 1;
     text-shadow: 1px 1px 2px black
   }
+  h2  {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2.3em;
+  }
+  
   h3 {
     font-size: 2rem;
     font-weight: 600;
-}
+  }
 .seccion {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -175,15 +183,6 @@ div.logo img{
     padding: 10px;
     
   }
-  h1 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 700;
-    color: #e6e6e6;
-    font-size: 10vw;
-    text-align: left;
-    line-height: 1;
-    text-shadow: 1px 1px 2px black
-  }
   .iconos-nosotros {
     margin: 40px 0;
   }
@@ -236,6 +235,7 @@ div.whatsapp .contenido p {
     height: 30vh;
   }
 }
+/** Whatsapp float **/
 .float{
 	position:fixed;
 	width:60px;
@@ -256,7 +256,42 @@ div.whatsapp .contenido p {
 
 .my-float{
 	margin-top:16px;
+} 
+/*** Fin Whatsapp Float **/
+
+/** Servicios **/
+@media only screen and (min-width: 768px) {
+  ul.lista-precios > li {
+    float: left;
+    width: 33.3%;
+  }
 }
+.lista-precios {
+  padding-left: 0px;
+  }  
+ul.lista-precios {
+  list-style: none;
+}
+div.tabla-precio {
+  background-color: #ffffff; 
+  padding: 0 20px;
+  text-align: left;
+}
+div.tabla-precio ul li {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #404040;
+  line-height: 40px;
+  list-style: none;
+  padding: 0;
+}
+div.tabla-precio ul li img {
+  margin: 0 6px 6px 0;
+}
+ 
+/** fin servicios **/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
