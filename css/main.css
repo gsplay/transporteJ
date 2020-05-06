@@ -296,6 +296,9 @@ div.tabla-precio ul li {
 div.tabla-precio ul li img {
   margin: 0 6px 6px 0;
 }
+section.precios h2 {
+  margin: 7vh 0;
+}
  
 /** fin servicios **/
 
