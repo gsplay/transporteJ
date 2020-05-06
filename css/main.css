@@ -129,8 +129,7 @@ textarea {
     font-weight: 600;
   }
 .seccion {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 4vh 0;
   }
    div.cabecera {
     width: 100%;
@@ -233,6 +232,7 @@ div.whatsapp .contenido p {
   }
   div.whatsapp {
     height: 30vh;
+    margin: 4rem 0;
   }
 }
 /** Whatsapp float **/
@@ -320,12 +320,13 @@ div.tabla-precio ul li img {
 /** Newsletter **/
 @media only screen and (min-width: 768px) {
   div.newsletter {
-    height: 40vh;
+    height: 50vh;
   }
 }
 div.newsletter {
   position: relative;
   padding-top: 5vh;
+  margin: 4vh 0;
   height: 30vh;
   background-image: url(../img/ruta.webp);
 }
