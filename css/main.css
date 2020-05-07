@@ -235,6 +235,10 @@ div.logo img{
   }
   .icono {
       text-align: center;
+      margin-top: 10vh;
+  }
+  .icono img {
+    height: 10vw;
   }
   @media (min-width: 768px) {
       .icono {
@@ -288,7 +292,7 @@ border-radius:50px;
 	position:fixed;
 	width:60px;
   height:60px;
-  min-height: 236px;
+  min-height: 240px;
 	bottom:40px;
 	right:20px;
   text-align:center;
@@ -462,7 +466,7 @@ div.newsletter .contenido h3 {
 /** FOOTER **/
 .site-footer {
   background-color: #000000;
-  padding: 3rem;
+  padding: 3rem 1rem;
   margin-top: 4rem;
 }
 .site-footer p {
@@ -483,6 +487,9 @@ div.newsletter .contenido h3 {
 }
 
 @media only screen and (min-width: 768px) {
+  .site-footer {
+    padding: 3rem;
+  }
   .f-f {
     display: inline-flex;
     width: 100%;
