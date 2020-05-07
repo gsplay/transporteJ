@@ -456,6 +456,42 @@ div.newsletter .contenido h3 {
   background-color: #0f4c5c;
 }
 
+/** FOOTER **/
+.site-footer {
+  background-color: #000000;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+.site-footer p {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  line-height: 1;
+}
+.site-footer h4{
+  color: white;
+  font-size: 2em;
+  line-height: 1;
+  font-weight: 600;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .f-f {
+    display: inline-flex;
+    width: 100%;
+   }
+  .logo-f {
+    width: 50%;
+  }
+  .nav-f {
+    width: 50%;
+    display: inline;
+  }
+}
 
 /* ==========================================================================
    Helper classes
