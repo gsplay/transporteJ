@@ -207,6 +207,7 @@ div.logo img{
   }
   .navegacion-principal a img {
     width: 2em;
+    margin-right: 1.2em;
    }
   nav.navegacion-principal {
       display: flex;
