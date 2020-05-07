@@ -193,6 +193,7 @@ div.logo img{
   div.barra {
     background-color: #353535;
     padding: 10px 0;
+    margin-bottom: 12vh;
   }
   /** Navegacion Principal**/
   nav.navegacion-principal a {
