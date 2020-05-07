@@ -190,7 +190,7 @@ div.logo img{
 
   
   /** Barra **/
-    div.barra {
+  div.barra {
     background-color: #353535;
     padding: 10px 0;
     margin-bottom: 12vh;
@@ -356,7 +356,7 @@ section.servicios h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(102, 55, 55, 0.4);
 }
 /** Newsletter **/
 @media only screen and (min-width: 768px) {
@@ -385,8 +385,9 @@ div.newsletter .contenido h3 {
   text-transform: uppercase;
   font-size: 4vw;
   font-family: 'PT Sans', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-shadow: 4px 2px 1px rgba(0,0,0,0.85);
 }
 .button {
   font-family: 'PT Sans', sans-serif;
@@ -397,10 +398,11 @@ div.newsletter .contenido h3 {
   font-weight: bold;
   text-decoration: none;
   border: 2px solid #fc7e2f;
-  font-size: 1em;
+  font-size: 1.5em;
   margin-top: 20px;
   display: inline-block;
   transition: all .3s ease-in-out;
+  text-shadow: 4px 2px 1px rgba(0,0,0,0.85);
 }
 .button:hover {
   background-color: #fc7e2f;
