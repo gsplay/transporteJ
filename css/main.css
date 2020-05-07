@@ -128,9 +128,7 @@ textarea {
     font-size: 2rem;
     font-weight: 600;
   }
-  header {
-    margin-bottom: 10vh;
-   }
+  
    
 .seccion {
   margin: 4vh 0;
@@ -189,6 +187,39 @@ div.logo img{
   .iconos-nosotros {
     margin: 40px 0;
   }
+
+  
+  /** Barra **/
+  div.barra {
+    background-color: #353535;
+    padding: 10px 0;
+  }
+  /** Navegacion Principal**/
+  nav.navegacion-principal a {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px;
+    display: inline-block;
+  }
+  .navegacion-principal a img {
+    width: 2em;
+   }
+  nav.navegacion-principal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @media only screen and (min-width: 768px) {
+      nav.navegacion-principal {
+        justify-content: right;
+      }
+    }
+  /** Fin Barra **/
+
   @media (min-width: 768px) {
     .iconos-nosotros {
         display: flex;
