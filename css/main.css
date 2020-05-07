@@ -261,29 +261,29 @@ div.whatsapp .contenido p {
 
 /** Servicios **/
 @media only screen and (min-width: 768px) {
-  ul.lista-precios > li {
+  ul.lista-servicios > li {
     float: left;
     width: 33.3%;
   }
-  div.tabla-precio {
+  div.tabla-servicios {
     padding: 0 20px ;
   }
-  div.tabla-precio ul li {
+  div.tabla-servicios ul li {
     font-size: 1.3em;
   }
 }
-.lista-precios {
+.lista-servicios {
   padding-left: 0px;
   }  
-ul.lista-precios {
+ul.lista-servicios {
   list-style: none;
 }
-div.tabla-precio {
+div.tabla-servicios {
   background-color: #ffffff; 
   padding: 0;
   text-align: left;
 }
-div.tabla-precio ul li {
+div.tabla-servicios ul li {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.1em;
   margin-bottom: 20px;
@@ -293,10 +293,10 @@ div.tabla-precio ul li {
   list-style: none;
   padding: 0;
 }
-div.tabla-precio ul li img {
+div.tabla-servicios ul li img {
   margin: 0 6px 6px 0;
 }
-section.precios h2 {
+section.servicios h2 {
   margin: 7vh 0;
 }
  
@@ -374,6 +374,44 @@ div.newsletter .contenido h3 {
 .button.transparente:hover{
   border: 2px solid #fc7e2f;
 }
+
+/** Destinos Fijos**/
+.fijos p{
+  color: white;
+  text-align: center;
+  padding: 7vh;
+  font-size: 6vw;
+  font-weight: 600;
+  margin: 1vh;
+}
+@media only screen and (min-width: 768px) {
+  .fijos {
+    display: flex;
+    }
+    .fijos p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4vh;
+      width: 50%;
+      height: 30vh;
+    }
+}
+
+.caba {
+  background-color: #fc7e2f;
+}
+.gba {
+  background-color: #5f0f40;
+}
+.lp {
+  background-color: #9a031e;
+}
+.bb {
+  background-color: #0f4c5c;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
