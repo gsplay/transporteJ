@@ -220,6 +220,10 @@ div.logo img{
       .navegacion-principal a {
         margin-right:1.2em;
       }
+      .navegacion-principal > a:nth-child(2) > img:nth-child(1) {
+        display: none;
+       }
+       
     }
   /** Fin Barra **/
 
