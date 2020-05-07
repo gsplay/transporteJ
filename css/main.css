@@ -233,11 +233,11 @@ div.logo img{
         justify-content: space-between;
     }
   }
-  .icono {
+  div.icono {
       text-align: center;
       margin-top: 10vh;
   }
-  .icono img {
+  div.icono img {
     height: 10vw;
   }
   @media (min-width: 768px) {
