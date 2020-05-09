@@ -238,7 +238,7 @@ div.logo img{
       margin-top: 10vh;
   }
   div.icono img {
-    height: 10vw;
+    height: 18vh;
   }
   @media (min-width: 768px) {
       .icono {
@@ -367,7 +367,7 @@ section.servicios h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(102, 55, 55, 0.4);
+  background-color: rgba(35, 35, 35, 0);
 }
 /** Newsletter **/
 @media only screen and (min-width: 768px) {
@@ -409,11 +409,11 @@ div.newsletter .contenido h3 {
   font-weight: bold;
   text-decoration: none;
   border: 2px solid #fc7e2f;
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-top: 20px;
   display: inline-block;
-  transition: all .3s ease-in-out;
-  text-shadow: 4px 2px 1px rgba(0,0,0,0.85);
+  transition: all .3s cubic-bezier(0.07, 0.19, 0.31, 0.99);
+  text-shadow: 3px 2px 1px rgba(19, 7, 7, 0.85);
 }
 .button:hover {
   background-color: #fc7e2f;
@@ -471,7 +471,7 @@ div.newsletter .contenido h3 {
 }
 .site-footer p {
   color: #FFFFFF;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
