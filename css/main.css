@@ -452,42 +452,64 @@ div.contacto .contenido h3 {
 
 /** FOOTER **/
 .site-footer {
-  background-color: #000000;
-  padding: 3rem 1rem;
-  margin-top: 4rem;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .site-footer p {
   color: #FFFFFF;
-  font-size: .8rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
   font-family: 'Open Sans', sans-serif;
-  text-align: left;
   line-height: 1;
-}
-.site-footer h4{
-  color: white;
-  font-size: 2em;
-  line-height: 1;
-  font-weight: 600;
-  font-family: 'Libre Franklin', sans-serif;
-  margin: 0;
+  text-decoration: none;
 }
 
+.f1,
+.f2,
+.f3 {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
+.f1 p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: left;
+}
+.logo-f {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+ }
+ .logo-f img {
+  width: 5rem;
+  margin-right: 1rem;
+ }
+ div.f2 p.p-tel {
+  font-size: 1.1rem;
+  font-weight: 700;
+ }
+ .f3 img {
+   width: 1.8rem;
+ }
+ .f3 p {
+   font-weight: 500;
+   font-style: oblique;
+   text-decoration: none;
+ }
 @media only screen and (min-width: 768px) {
   .site-footer {
-    padding: 3rem;
+    flex-direction: row;
   }
-  .f-f {
-    display: inline-flex;
-    width: 100%;
-   }
-  .logo-f {
-    width: 50%;
-  }
-  .nav-f {
-    width: 50%;
-    display: inline;
-  }
+  .f1,
+  .f2,
+  .f3 {
+    width: 33.3%;
+    margin: 2rem 0;
+  } 
 }
 
 /* ==========================================================================
@@ -608,7 +630,7 @@ div.contacto .contenido h3 {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
