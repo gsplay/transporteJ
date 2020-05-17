@@ -239,7 +239,7 @@ div.logo img{
       margin-top: 10vh;
   }
   div.icono img {
-    height: 18vh;
+    height: 14vh;
   }
   div.icono p {
     font-size: 1.2rem;
@@ -496,7 +496,7 @@ div.contacto .contenido h3 {
  .f3 img {
    width: 1.8rem;
  }
- .f3 p {
+ div.f3 p {
    font-weight: 500;
    font-style: oblique;
    text-decoration: none;
