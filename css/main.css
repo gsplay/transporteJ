@@ -111,8 +111,7 @@ textarea {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 700;
     color: #e6e6e6;
-    font-size: 14vw;
-    max-width: 68vw;
+    font-size: 3.6em;
     text-align: center;
     line-height: 1;
     text-shadow: 1px 1px 2px black
@@ -166,7 +165,7 @@ textarea {
     margin: 0 auto;
 }  
 div.logo img{
-  width: 100%;
+  width: 85%;
   height: auto;
   max-width: 9rem;
 }
