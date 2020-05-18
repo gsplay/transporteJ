@@ -142,8 +142,7 @@ div.logo img{
   /** Barra **/
   div.barra {
     background-color: #353535;
-    padding: 10px 0;
-    margin-bottom: 12vh;
+    display: flex;
   }
   /** Navegacion Principal**/
   nav.navegacion-principal a {
